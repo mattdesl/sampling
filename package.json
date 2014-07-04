@@ -1,0 +1,51 @@
+{
+  "name": "sampling",
+  "version": "0.0.0",
+  "description": "linear and nearest-neighbour sampling utility",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Matt DesLauriers <dave.des@gmail.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.13.2"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/sampling.git"
+  },
+  "homepage": "https://github.com/mattdesl/sampling",
+  "bugs": {
+    "url": "https://github.com/mattdesl/sampling/issues"
+  },
+  "keywords": [
+    "sample",
+    "sampling",
+    "bilinear",
+    "linear",
+    "nearest",
+    "nearest-neighbour",
+    "noise",
+    "resize",
+    "image",
+    "pixel",
+    "scale",
+    "filter",
+    "filtering"
+  ]
+}
