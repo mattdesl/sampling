@@ -1,5 +1,5 @@
-var lerp = require('interpolation').lerp;
-var smoothstep = require('interpolation').smoothstep;
+var lerp = require('lerp');
+var smoothstep = require('smoothstep');
 
 module.exports.nearest = function(data, width, height, x, y) {
     var px = ~~x % width,
