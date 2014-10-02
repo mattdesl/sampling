@@ -7,7 +7,7 @@
   "author": "Matt DesLauriers <dave.des@gmail.com>",
   "dependencies": {
     "lerp": "^1.0.0",
-    "smoothstep": "^1.0.0"
+    "smoothstep": "^1.0.1"
   },
   "devDependencies": {
     "tape": "~2.13.2"
